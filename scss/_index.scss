@@ -1,0 +1,21 @@
+
+
+// 清除 .aside y軸 scrollbar
+.aside::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and(min-width:768px) {
+    .form {
+        font-size: 1rem !important; // 覆蓋.fs-14px
+    }
+}
+
+@media screen and(min-width:992px) {
+    .aside {
+        position: sticky;
+        overflow-y: auto;
+        height: calc(100vh - 82px);
+        top: 0;
+    }
+}

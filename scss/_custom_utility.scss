@@ -1,0 +1,56 @@
+
+// text 
+.word-break-keep-all {
+    word-break: keep-all;
+}
+// mouse trigger button-hover 
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+// button hover
+.hover-text-white:hover {
+    color: $white !important;
+
+}
+.hover-red-light:hover {
+    background-color: $red-light;
+}
+.hover-yellow:hover {
+    background-color: $yellow;
+    border-color: $yellow;
+
+    >svg {
+        color: $red-light;
+    }
+}
+
+
+// font-size
+@media screen and(max-width:768px) {
+    .fs-mobile-pad-14px {
+        font-size: 0.875rem;
+    }
+
+    .fs-mobile-pad-18px {
+        font-size: 1.125rem;
+    }
+
+    .fs-mobile-pad-20px {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and(min-width:768px) {
+    .fs-pad-pc-14px {
+        font-size: 0.875rem;
+    }
+
+}
+// width
+@media screen and(min-width:992px) {
+    .width-pc-auto {
+        width: auto !important;
+    }
+}
