@@ -456,14 +456,14 @@
                         <form action="POST" class="fs-8 fw-bold form needs-validation was-validated"  novalidate id="form-pc">
                             <label class="text-gray-dark-1 form-label" for="Sponsor">贊助方案</label>
                             <select
-                                class="form-select bg-gray-light-2 text-gray-dark-5 w-100 form-input border-0 rounded mb-3  fw-bold"
-                                aria-label="Default select example input" id="Sponsor">
-                                <option selected="" disabled>請選擇一個方案</option>
-                                <option value="Fundraising-A">A</option>
-                                <option value="Fundraising-B">B</option>
-                                <option value="Fundraising-C">C</option>
-                            </select>
-                            <p class="invalid-feedback fs-8 text-red-light">請選擇一個方案</p>
+                        class="form-select bg-gray-light-2 text-gray-dark-5 w-100 form-input border-0 rounded mb-3  fw-bold"
+                        aria-label="Default select example input" id="Sponsor" required>
+                        <option disabled value="" selected>請選擇一個方案</option>
+                        <option value="Fundraising-A">A</option>
+                        <option value="Fundraising-B">B</option>
+                        <option value="Fundraising-C">C</option>
+                    </select>
+                    <p class="fs-8 text-red-light invalid-feedback">請選擇一個方案</p>
                             <label class="text-gray-dark-1 form-label" for="name">收件人姓名</label>
                             <input type="text" name="name" id="name" required
                                 class="form-control bg-gray-light-2 text-gray-dark-5 w-100 form-input border-0 rounded  mb-3 fw-bold input">
